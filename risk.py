@@ -40,12 +40,3 @@ def battle(a, d): #This is a recursive fuction that essentially does a tree sear
     else:
         return 0
 
-n = 40
-temp = [[], []]
-for i in range(1, n + 1):
-    j = i
-    temp[0].append(i)
-    while(battle(i, j) > 0.2):
-        j += 1
-    temp[1].append(j)
-
